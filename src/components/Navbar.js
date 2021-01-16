@@ -13,7 +13,6 @@ import {
     Toolbar,
     Typography,
   } from "@material-ui/core";
-  import {RemoveScrollBar} from 'react-remove-scroll-bar';
   import React, { useState } from "react";
   import { makeStyles } from "@material-ui/core/styles";
   import MobilRightMenuSlider from "@material-ui/core/Drawer";
