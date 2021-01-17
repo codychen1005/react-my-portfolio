@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-my-portfolio/static/css/main.2ce8a0c9.chunk.css",
-    "main.js": "/react-my-portfolio/static/js/main.d7ecff98.chunk.js",
-    "main.js.map": "/react-my-portfolio/static/js/main.d7ecff98.chunk.js.map",
+    "main.js": "/react-my-portfolio/static/js/main.ce59c619.chunk.js",
+    "main.js.map": "/react-my-portfolio/static/js/main.ce59c619.chunk.js.map",
     "runtime-main.js": "/react-my-portfolio/static/js/runtime-main.f62f5a35.js",
     "runtime-main.js.map": "/react-my-portfolio/static/js/runtime-main.f62f5a35.js.map",
     "static/js/2.cdd04602.chunk.js": "/react-my-portfolio/static/js/2.cdd04602.chunk.js",
@@ -13,15 +13,18 @@
     "static/css/main.2ce8a0c9.chunk.css.map": "/react-my-portfolio/static/css/main.2ce8a0c9.chunk.css.map",
     "static/js/2.cdd04602.chunk.js.LICENSE.txt": "/react-my-portfolio/static/js/2.cdd04602.chunk.js.LICENSE.txt",
     "static/media/Weihong_Resume.fa927d2f.pdf": "/react-my-portfolio/static/media/Weihong_Resume.fa927d2f.pdf",
+    "static/media/a-star-search.321a3232.gif": "/react-my-portfolio/static/media/a-star-search.321a3232.gif",
     "static/media/avatar.4f5c0035.png": "/react-my-portfolio/static/media/avatar.4f5c0035.png",
+    "static/media/bmi-calculator.961b1f97.gif": "/react-my-portfolio/static/media/bmi-calculator.961b1f97.gif",
     "static/media/App.css": "/react-my-portfolio/static/media/coffee-apple.a0c19713.jpg",
     "static/media/html-css-javascript-lg.91568b14.jpg": "/react-my-portfolio/static/media/html-css-javascript-lg.91568b14.jpg",
-    "static/media/react.e3c4d28a.png": "/react-my-portfolio/static/media/react.e3c4d28a.png"
+    "static/media/pizza-manager.0264a433.gif": "/react-my-portfolio/static/media/pizza-manager.0264a433.gif",
+    "static/media/tuition-manager.039e7eda.gif": "/react-my-portfolio/static/media/tuition-manager.039e7eda.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.f62f5a35.js",
     "static/js/2.cdd04602.chunk.js",
     "static/css/main.2ce8a0c9.chunk.css",
-    "static/js/main.d7ecff98.chunk.js"
+    "static/js/main.ce59c619.chunk.js"
   ]
 }
