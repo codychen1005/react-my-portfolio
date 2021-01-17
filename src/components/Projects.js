@@ -72,7 +72,7 @@ const Projects = () => {
             </CardContent>
             {/* </CardActionArea> */}
             <CardActions>
-              <Button
+              <Button variant="contained"
                 size="small"
                 color="primary"
                 onClick={(e) => {
@@ -120,7 +120,7 @@ const Projects = () => {
             </CardContent>
             {/* </CardActionArea> */}
             <CardActions>
-              <Button
+              <Button variant="contained"
                 size="small"
                 color="primary"
                 onClick={(e) => {
@@ -179,7 +179,7 @@ const Projects = () => {
             </CardContent>
             {/* </CardActionArea> */}
             <CardActions>
-              <Button
+              <Button variant="contained"
                 size="small"
                 color="primary"
                 onClick={(e) => {
@@ -240,7 +240,7 @@ const Projects = () => {
             </CardContent>
             {/* </CardActionArea> */}
             <CardActions>
-              <Button
+              <Button variant="contained"
                 size="small"
                 color="primary"
                 onClick={(e) => {
@@ -283,28 +283,31 @@ const Projects = () => {
               </Typography>
               <Typography
                 variant="body2"
-                align="center"
+                // align="center"
                 color="textSecondary"
                 component="p"
               >
                 <Box
                   style={{
                     display: "left",
+                    height: "1000",
                     // justifyContent: "center",
                     // alignItems: "center",
                   }}
                 >
                   • Developed an Android Studio mobile application GUI that
-                  calculates BMI when the user inputs height, weight, and age. •
-                  Using factors of age group and BMI percentile in Java, had GUI
-                  output a detailed analysis and lifestyle suggestion report. •
-                  Model: Google Pixel 2
+                  calculates BMI when the user inputs height, weight, and age. 
+
+                  •Using factors of age group and BMI percentile in Java, had GUI
+                  output a detailed analysis and lifestyle suggestion report. 
+                  
+                  •Model: Google Pixel 2
                 </Box>
               </Typography>
             </CardContent>
             {/* </CardActionArea> */}
             <CardActions>
-              <Button
+              <Button variant="contained"
                 size="small"
                 color="primary"
                 onClick={(e) => {
