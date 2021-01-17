@@ -13,7 +13,10 @@ import {
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "./Navbar";
 import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/react.png";
+import project2 from "../images/a-star-search.gif";
+import project3 from "../images/pizza-manager.gif";
+import project4 from "../images/tuition-manager.gif";
+import project5 from "../images/bmi-calculator.gif";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -44,7 +47,7 @@ const Projects = () => {
             // //   image={project2}
             >
               <img
-                src={project1}
+                src={project3}
                 style={{
                   justifyContent: "center",
                   alignItems: "center",
@@ -56,54 +59,27 @@ const Projects = () => {
 
             <CardContent>
               <Typography gutterBottom variant="h5">
-                Project 1
+                Pizza Manager
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                <Grid>Project 1 description:...</Grid>
+                <Grid>
+                  JavaFX application to manage a customer session at an pizza
+                  website. Change the size and toppings of pizza and add them to
+                  a purchase. Then go to a checkout page and verify before
+                  placing the order.
+                </Grid>
               </Typography>
             </CardContent>
             {/* </CardActionArea> */}
             <CardActions>
-              <Button size="small" color="primary">
-                Project Link
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
-
-        {/*Project 2*/}
-        <Grid item xs={12} sm={8} md={6}>
-          <Card className={classes.cardContainer}>
-            {/* <CardActionArea> */}
-            <CardMedia
-
-            //   component="img"
-            //   alt="Project 2"
-            //   height="200"
-            // //   image={project2}
-            >
-              <img
-                src={project1}
-                style={{
-                  justifyContent: "center",
-                  alignItems: "center",
+              <Button
+                size="small"
+                color="primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open("https://github.com/codychen1005/Pizza-Manager");
                 }}
-                height="200"
-                width="100%"
-              />
-            </CardMedia>
-
-            <CardContent>
-              <Typography gutterBottom variant="h5">
-                Project 2
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Project 2 description:...
-              </Typography>
-            </CardContent>
-            {/* </CardActionArea> */}
-            <CardActions>
-              <Button size="small" color="primary">
+              >
                 Project Link
               </Button>
             </CardActions>
@@ -131,12 +107,60 @@ const Projects = () => {
                 width="100%"
               />
             </CardMedia>
+
             <CardContent>
               <Typography gutterBottom variant="h5">
-                Project 2
+                A-Star-Search
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-              <Box
+                A* path finding algorithm written in Python which details the
+                optimal path given different terrain which are easier or harder
+                to traverse.
+              </Typography>
+            </CardContent>
+            {/* </CardActionArea> */}
+            <CardActions>
+              <Button
+                size="small"
+                color="primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open("https://github.com/codychen1005/A-Star-Search");
+                }}
+              >
+                Project Link
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        {/*Project 3*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            {/* <CardActionArea> */}
+            <CardMedia
+
+            //   component="img"
+            //   alt="Project 2"
+            //   height="200"
+            // //   image={project2}
+            >
+              <img
+                src={project1}
+                style={{
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                height="200"
+                width="100%"
+              />
+            </CardMedia>
+            <CardContent>
+              <Typography gutterBottom variant="h5">
+                Flight Reservation
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                <Box
                   style={{
                     display: "left",
                     height: "1000",
@@ -144,24 +168,34 @@ const Projects = () => {
                     // alignItems: "center",
                   }}
                 >
-                  PS C:\Users\longc\portfolio-site git init Reinitialized
-                  existing Git repository in C:/Users/longc/portfolio-site/.git/
-                  PS C:\Users\longc\portfolio-site git remote add origin
-                  https://github.com/codychen1005.io/porfolio-site.git fatal:
+                  Implemented a relational database system using AWS to support
+                  the operations of an online travel reservation website. I
+                  created front-end development of user interface for customer
+                  and administrator logins using HTML&CSS. Collaborated on
+                  back-end using MySQL, Java and JDBC connectivity between the
+                  user interface and database server.
                 </Box>
-
               </Typography>
             </CardContent>
             {/* </CardActionArea> */}
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open(
+                    "https://github.com/codychen1005/Flight-Reservation-System"
+                  );
+                }}
+              >
                 Project Link
               </Button>
             </CardActions>
           </Card>
         </Grid>
 
-        {/*Project 2*/}
+        {/*Project 4*/}
         <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             {/* <CardActionArea> */}
@@ -173,7 +207,7 @@ const Projects = () => {
             // //   image={project2}
             >
               <img
-                src={project2}
+                src={project4}
                 style={{
                   justifyContent: "center",
                   alignItems: "center",
@@ -184,7 +218,68 @@ const Projects = () => {
             </CardMedia>
             <CardContent>
               <Typography gutterBottom variant="h5">
-                Project 2
+                Tuition Manager
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                <Box
+                  style={{
+                    display: "left",
+                    height: "1000",
+                    // justifyContent: "center",
+                    // alignItems: "center",
+                  }}
+                >
+                  Created a GUI Java application in OOP to form a list of
+                  students and their enrollment tuition calculations based on
+                  variables such as the number of credits and
+                  full-time/part-time, features included adding, removing, and
+                  printing of list. Using JavaFX and Scene builder to create the
+                  UI
+                </Box>
+              </Typography>
+            </CardContent>
+            {/* </CardActionArea> */}
+            <CardActions>
+              <Button
+                size="small"
+                color="primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open(
+                    "https://github.com/codychen1005/Tuition-Manager"
+                  );
+                }}
+              >
+                Project Link
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        {/*Project 5*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            {/* <CardActionArea> */}
+            <CardMedia
+
+            //   component="img"
+            //   alt="Project 2"
+            //   height="200"
+            // //   image={project2}
+            >
+              <img
+                src={project5}
+                style={{
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                height="200"
+                width="100%"
+              />
+            </CardMedia>
+            <CardContent>
+              <Typography gutterBottom variant="h5">
+                BMI Calculator
               </Typography>
               <Typography
                 variant="body2"
@@ -199,16 +294,26 @@ const Projects = () => {
                     // alignItems: "center",
                   }}
                 >
-                  PS C:\Users\longc\portfolio-site git init Reinitialized
-                  existing Git repository in C:/Users/longc/portfolio-site/.git/
-                  PS C:\Users\longc\portfolio-site git remote add origin
-                  
+                  • Developed an Android Studio mobile application GUI that
+                  calculates BMI when the user inputs height, weight, and age. •
+                  Using factors of age group and BMI percentile in Java, had GUI
+                  output a detailed analysis and lifestyle suggestion report. •
+                  Model: Google Pixel 2
                 </Box>
               </Typography>
             </CardContent>
             {/* </CardActionArea> */}
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open(
+                    "https://github.com/codychen1005/BMI-Calculator"
+                  );
+                }}
+              >
                 Project Link
               </Button>
             </CardActions>
