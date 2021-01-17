@@ -65,10 +65,7 @@ const Projects = () => {
             {/* </CardActionArea> */}
             <CardActions>
               <Button size="small" color="primary">
-                Share
-              </Button>
-              <Button size="small" color="primary">
-                Live Demo
+                Project Link
               </Button>
             </CardActions>
           </Card>
@@ -107,10 +104,7 @@ const Projects = () => {
             {/* </CardActionArea> */}
             <CardActions>
               <Button size="small" color="primary">
-                Share
-              </Button>
-              <Button size="small" color="primary">
-                Live Demo
+                Project Link
               </Button>
             </CardActions>
           </Card>
@@ -161,10 +155,7 @@ const Projects = () => {
             {/* </CardActionArea> */}
             <CardActions>
               <Button size="small" color="primary">
-                Share
-              </Button>
-              <Button size="small" color="primary">
-                Live Demo
+                Project Link
               </Button>
             </CardActions>
           </Card>
@@ -218,10 +209,7 @@ const Projects = () => {
             {/* </CardActionArea> */}
             <CardActions>
               <Button size="small" color="primary">
-                Share
-              </Button>
-              <Button size="small" color="primary">
-                Live Demo
+                Project Link
               </Button>
             </CardActions>
           </Card>
