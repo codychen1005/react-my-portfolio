@@ -12,7 +12,9 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "./Navbar";
-import project1 from "../images/html-css-javascript-lg.jpg";
+import GitHubIcon from '@material-ui/icons/GitHub';
+
+import project1 from "../images/flight-reservation.gif";
 import project2 from "../images/a-star-search.gif";
 import project3 from "../images/pizza-manager.gif";
 import project4 from "../images/tuition-manager.gif";
@@ -79,8 +81,9 @@ const Projects = () => {
                   e.preventDefault();
                   window.open("https://github.com/codychen1005/Pizza-Manager");
                 }}
+                endIcon={<GitHubIcon />}
               >
-                Project Link
+                View
               </Button>
             </CardActions>
           </Card>
@@ -127,8 +130,9 @@ const Projects = () => {
                   e.preventDefault();
                   window.open("https://github.com/codychen1005/A-Star-Search");
                 }}
+                endIcon={<GitHubIcon />}
               >
-                Project Link
+                View
               </Button>
             </CardActions>
           </Card>
@@ -188,8 +192,9 @@ const Projects = () => {
                     "https://github.com/codychen1005/Flight-Reservation-System"
                   );
                 }}
+                endIcon={<GitHubIcon />}
               >
-                Project Link
+                View
               </Button>
             </CardActions>
           </Card>
@@ -249,8 +254,9 @@ const Projects = () => {
                     "https://github.com/codychen1005/Tuition-Manager"
                   );
                 }}
+                endIcon={<GitHubIcon />}
               >
-                Project Link
+                View
               </Button>
             </CardActions>
           </Card>
@@ -316,8 +322,9 @@ const Projects = () => {
                     "https://github.com/codychen1005/BMI-Calculator"
                   );
                 }}
+                endIcon={<GitHubIcon />}
               >
-                Project Link
+                View
               </Button>
             </CardActions>
           </Card>
