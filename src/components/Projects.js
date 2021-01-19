@@ -37,117 +37,12 @@ const Projects = () => {
     <Box component="div" className={classes.mainContainer}>
       <Navbar />
       <Grid container justify="center">
-        {/*Project 1*/}
-        <Grid item xs={12} sm={8} md={6}>
+        
+              {/*Project 3*/}
+              <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             {/* <CardActionArea> */}
             <CardMedia
-
-            //   component="img"
-            //   alt="Project 2"
-            //   height="200"
-            // //   image={project2}
-            >
-              <img
-                src={project3}
-                style={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                height="200"
-                width="100%"
-              />
-            </CardMedia>
-
-            <CardContent>
-              <Typography gutterBottom variant="h5">
-                Pizza Manager
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                <Grid>
-                  JavaFX application to manage a customer session at an pizza
-                  website. Change the size and toppings of pizza and add them to
-                  a purchase. Then go to a checkout page and verify before
-                  placing the order.
-                </Grid>
-              </Typography>
-            </CardContent>
-            {/* </CardActionArea> */}
-            <CardActions>
-              <Button variant="contained"
-                size="small"
-                color="primary"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open("https://github.com/codychen1005/Pizza-Manager");
-                }}
-                endIcon={<GitHubIcon />}
-              >
-                View
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
-
-        {/*Project 2*/}
-        <Grid item xs={12} sm={8} md={6}>
-          <Card className={classes.cardContainer}>
-            {/* <CardActionArea> */}
-            <CardMedia
-
-            //   component="img"
-            //   alt="Project 2"
-            //   height="200"
-            // //   image={project2}
-            >
-              <img
-                src={project2}
-                style={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                height="200"
-                width="100%"
-              />
-            </CardMedia>
-
-            <CardContent>
-              <Typography gutterBottom variant="h5">
-                A-Star-Search
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                A* path finding algorithm written in Python which details the
-                optimal path given different terrain which are easier or harder
-                to traverse.
-              </Typography>
-            </CardContent>
-            {/* </CardActionArea> */}
-            <CardActions>
-              <Button variant="contained"
-                size="small"
-                color="primary"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open("https://github.com/codychen1005/A-Star-Search");
-                }}
-                endIcon={<GitHubIcon />}
-              >
-                View
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
-
-        {/*Project 3*/}
-        <Grid item xs={12} sm={8} md={6}>
-          <Card className={classes.cardContainer}>
-            {/* <CardActionArea> */}
-            <CardMedia
-
-            //   component="img"
-            //   alt="Project 2"
-            //   height="200"
-            // //   image={project2}
             >
               <img
                 src={project1}
@@ -199,9 +94,9 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
-
-        {/*Project 4*/}
-        <Grid item xs={12} sm={8} md={6}>
+  
+                {/*Project 4*/}
+                <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             {/* <CardActionArea> */}
             <CardMedia
@@ -261,6 +156,59 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
+        
+        {/*Project 1*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            {/* <CardActionArea> */}
+            <CardMedia
+
+            //   component="img"
+            //   alt="Project 2"
+            //   height="200"
+            // //   image={project2}
+            >
+              <img
+                src={project3}
+                style={{
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                height="200"
+                width="100%"
+              />
+            </CardMedia>
+
+            <CardContent>
+              <Typography gutterBottom variant="h5">
+                Pizza Manager
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                <Grid>
+                  JavaFX application to manage a customer session at an pizza
+                  website. Change the size and toppings of pizza and add them to
+                  a purchase. Then go to a checkout page and verify before
+                  placing the order.
+                </Grid>
+              </Typography>
+            </CardContent>
+            {/* </CardActionArea> */}
+            <CardActions>
+              <Button variant="contained"
+                size="small"
+                color="primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open("https://github.com/codychen1005/Pizza-Manager");
+                }}
+                endIcon={<GitHubIcon />}
+              >
+                View
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+
 
         {/*Project 5*/}
         <Grid item xs={12} sm={8} md={6}>
@@ -329,9 +277,57 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
+
+        {/*Project 2*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            {/* <CardActionArea> */}
+            <CardMedia
+
+            //   component="img"
+            //   alt="Project 2"
+            //   height="200"
+            // //   image={project2}
+            >
+              <img
+                src={project2}
+                style={{
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                height="200"
+                width="100%"
+              />
+            </CardMedia>
+
+            <CardContent>
+              <Typography gutterBottom variant="h5">
+                A-Star-Search
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                A* path finding algorithm written in Python which details the
+                optimal path given different terrain which are easier or harder
+                to traverse.
+              </Typography>
+            </CardContent>
+            {/* </CardActionArea> */}
+            <CardActions>
+              <Button variant="contained"
+                size="small"
+                color="primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open("https://github.com/codychen1005/A-Star-Search");
+                }}
+                endIcon={<GitHubIcon />}
+              >
+                View
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>                
       </Grid>
     </Box>
   );
 };
-
 export default Projects;

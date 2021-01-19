@@ -143,7 +143,7 @@ const Contacts = () => {
             >
               Contact me
             </Button>
-            <br />
+            {/* <br />
             <Grid
               container
               direction="row"
@@ -155,7 +155,7 @@ const Contacts = () => {
               <Grid item xs={3}></Grid>
 
               <Grid item xs={3}></Grid>
-            </Grid>
+            </Grid> */}
           </Box>
         </Grid>
       </form>

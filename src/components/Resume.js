@@ -122,36 +122,19 @@ const Resume = () => {
                     my work experience
                 </Typography>
                 <Box component ="div" className={classes.timeLine}>
-                    <Typography variant = "h2" 
+                <Typography variant = "h2" 
                     className={`${classes.timeLineYear} ${classes.timeLineItem}`}> 
-                        2014 
+                        2021 
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align = "left" className={classes.subHeading}>
-                            Librarian Assistant & Library Media Specialist
+                            Upcoming Digital Application Engineering
                         </Typography>
                         <Typography variant="h6" align = "left" style={{color:"white"}}>
-                            Colts Neck High School (September 2014-June 2017) 
+                            HCL (January 2021-May 2021)
                         </Typography>
                         <Typography variant="h6" align = "left" style={{color:"tan"}}>
-                            Volunteered at the library and kept resources in working fashion including maintaining media supplies and main catalog.
-                        </Typography>
-                    </Box>
-
-                    <Typography variant = "h2" 
-                    className={`${classes.timeLineYear} ${classes.timeLineItem}`}> 
-                        2017 
-                    </Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align = "left" className={classes.subHeading}>
-                            Bilingual Teacher
-                        </Typography>
-                        <Typography variant="h6" align = "left" style={{color:"white"}}>
-                            Fidelity Chinese School(September 2017-June 2019)
-                        </Typography>
-                        <Typography variant="h6" align = "left" style={{color:"tan"}}>
-                            Designed weekly lesson plans to help and teach young students in learning Chinese.
-                        </Typography>
+                        Will be appling best practices and design patterns of languages, tools, databases, and frameworks like Java, Python, Angular, React, MongoDB, and Azure Cloud to deal with customer experience and engagement with business productivity and efficiency.</Typography>
                     </Box>
 
                     <Typography variant = "h2" 
@@ -172,18 +155,36 @@ const Resume = () => {
 
                     <Typography variant = "h2" 
                     className={`${classes.timeLineYear} ${classes.timeLineItem}`}> 
-                        2021 
+                        2017 
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align = "left" className={classes.subHeading}>
-                            Upcoming Digital Application Engineering
+                            Bilingual Teacher
                         </Typography>
                         <Typography variant="h6" align = "left" style={{color:"white"}}>
-                            HCL (January 2021-May 2021)
+                            Fidelity Chinese School(September 2017-June 2019)
                         </Typography>
                         <Typography variant="h6" align = "left" style={{color:"tan"}}>
-                        Will be appling best practices and design patterns of languages, tools, databases, and frameworks like Java, Python, Angular, React, MongoDB, and Azure Cloud to deal with customer experience and engagement with business productivity and efficiency.</Typography>
-                    </Box>                                                          
+                            Designed weekly lesson plans to help and teach young students in learning Chinese.
+                        </Typography>
+                    </Box>
+
+
+                    <Typography variant = "h2" 
+                    className={`${classes.timeLineYear} ${classes.timeLineItem}`}> 
+                        2014 
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align = "left" className={classes.subHeading}>
+                            Librarian Assistant & Library Media Specialist
+                        </Typography>
+                        <Typography variant="h6" align = "left" style={{color:"white"}}>
+                            Colts Neck High School (September 2014-June 2017) 
+                        </Typography>
+                        <Typography variant="h6" align = "left" style={{color:"tan"}}>
+                            Volunteered at the library and kept resources in working fashion including maintaining media supplies and main catalog.
+                        </Typography>
+                    </Box>                                                       
                 </Box>
             </Box>
         </>
