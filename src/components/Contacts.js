@@ -11,12 +11,7 @@ function sendEmail(e) {
   e.preventDefault();
   alert("Email Sent!");
   emailjs
-    .sendForm(
-      "gmail",
-      "template",
-      e.target,
-      "user_GX8OtLy7CpXrE2FI3Hexf"
-    )
+    .sendForm("gmail", "template", e.target, "user_GX8OtLy7CpXrE2FI3Hexf")
     .then(
       (result) => {
         console.log(result.text);
@@ -73,77 +68,94 @@ const Contacts = () => {
       <Navbar />
       <form
         onSubmit={sendEmail}
-        style={{ background: "#233", height: "100vh"}
-        }
+        style={{ background: "#233", height: "100vh" }}
       >
         <Grid container justify="center">
-        <Box 
-        style={{top: "50%", left: "50%",transform: "translate(-50%,-50%)",position: "absolute", width: "500px" }}>
-          <Typography
-            variant="h3"
+          <Box
             style={{
-              color: "tomato",
-              textAlign: "center",
-              // textTransform: "uppercase",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%,-50%)",
+              position: "absolute",
+              width: "500px",
             }}
           >
-            Let's Talk
-          </Typography>
-          <InputField
-            fullWidth={true}
-            label="Name"
-            variant="outlined"
-            inputProps={{ style: { color: "white" } }}
-            margin="dense"
-            size="medium"
-            type="text"
-            className="form-control"
-            name="name"
-          />
+            <Typography
+              variant="h3"
+              style={{
+                color: "tomato",
+                textAlign: "center",
+                // textTransform: "uppercase",
+              }}
+            >
+              Let's Talk
+            </Typography>
+            <InputField
+              fullWidth={true}
+              label="Name"
+              variant="outlined"
+              inputProps={{ style: { color: "white" } }}
+              margin="dense"
+              size="medium"
+              type="text"
+              className="form-control"
+              name="name"
+              required
+            />
 
-          <br />
+            <br />
 
-          <InputField
-            fullWidth={true}
-            label="Email"
-            variant="outlined"
-            inputProps={{ style: { color: "white" } }}
-            margin="dense"
-            size="medium"
+            <InputField
+              fullWidth={true}
+              label="Email"
+              variant="outlined"
+              inputProps={{ style: { color: "white" } }}
+              margin="dense"
+              size="medium"
+              type="email"
+              className="form-control"
+              name="email"
+              required
+            />
 
-            type="email"
-            className="form-control"
-            name="email"
-          />
+            <br />
+            <InputField
+              multiline
+              rowsMax={10}
+              fullWidth={true}
+              label="Leave your message here"
+              variant="outlined"
+              inputProps={{ style: { color: "white", height: 100 } }}
+              margin="dense"
+              size="medium"
+              type="text"
+              name="message"
+              className="form-control"
+            />
+            <br />
+            <Button
+              className={classes.button}
+              variant="outlined"
+              fullWidth={true}
+              endIcon={<SendIcon />}
+              type="submit"
+              value="Send Message"
+            >
+              Contact me
+            </Button>
+            <br />
+            <Grid
+              container
+              direction="row"
+              justify="space-evenly"
+              alignItems="center"
+            >
+              <Grid item xs={3}></Grid>
 
-          <br />
-          <InputField
-            multiline
-            rowsMax={10}
-            fullWidth={true}
-            label="Leave your message here"
-            variant="outlined"
-            inputProps={{ style: { color: "white", height: 100 } }}
-            margin="dense"
-            size="medium"
+              <Grid item xs={3}></Grid>
 
-            type="text"
-            name="message"
-            className="form-control"
-
-          />
-          <br />
-          <Button
-            className={classes.button}
-            variant="outlined"
-            fullWidth={true}
-            endIcon={<SendIcon />}
-
-            type="submit"
-            value="Send Message"
-          >
-            Contact me
-          </Button>
+              <Grid item xs={3}></Grid>
+            </Grid>
           </Box>
         </Grid>
       </form>
