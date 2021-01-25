@@ -128,13 +128,13 @@ const Resume = () => {
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align = "left" className={classes.subHeading}>
-                            Upcoming Digital Application Engineering
+                            Digital Application Engineer Intern
                         </Typography>
                         <Typography variant="h6" align = "left" style={{color:"white"}}>
                             HCL (January 2021-May 2021)
                         </Typography>
                         <Typography variant="h6" align = "left" style={{color:"tan"}}>
-                        Will be appling best practices and design patterns of languages, tools, databases, and frameworks like Java, Python, Angular, React, MongoDB, and Azure Cloud to deal with customer experience and engagement with business productivity and efficiency.</Typography>
+                         appling best practices and design patterns of languages, tools, databases, and frameworks like Java, Python, Angular, React, MongoDB, and Azure Cloud to deal with customer experience and engagement with business productivity and efficiency.</Typography>
                     </Box>
 
                     <Typography variant = "h2" 
